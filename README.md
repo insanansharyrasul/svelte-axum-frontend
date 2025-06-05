@@ -1,6 +1,6 @@
 # Svelte + Axum Frontend
 
-A modern web application frontend built with SvelteKit and TypeScript, designed to work with a Rust Axum backend API. The API is taken from [axum-backend](https://github.com/insanansharyrasul/axum-backend) (Vibe coded)
+A modern web application frontend built with SvelteKit and TypeScript, designed to work with a Rust Axum backend API. The API is taken from [axum-backend](https://github.com/insanansharyrasul/svelte-axum-backend) (Vibe coded)
 
 ## ✨ Features
 
