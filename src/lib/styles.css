@@ -1,0 +1,89 @@
+main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.message,
+.users,
+.add-user {
+    margin: 2rem 0;
+}
+
+.message h2 {
+    color: #007acc;
+    font-weight: 500;
+}
+
+.users h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.users li {
+    background: #f5f5f5;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border-left: 3px solid #007acc;
+}
+
+.add-user {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.add-user input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    font-size: 1rem;
+}
+
+.add-user input:focus {
+    outline: none;
+    border-color: #007acc;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+.add-user button {
+    padding: 0.75rem 1.5rem;
+    background: #007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.add-user button:hover {
+    background: #005a9e;
+}
+
+.add-user button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #d32f2f;
+    background: #ffebee;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
